@@ -1,5 +1,7 @@
 <?php
 
+use Dompdf\Dompdf as DOMPDF;
+
 /**  Require DomPDF library */
 $pdfRendererClassFile = PHPExcel_Settings::getPdfRendererPath() . '/dompdf_config.inc.php';
 if (file_exists($pdfRendererClassFile)) {
