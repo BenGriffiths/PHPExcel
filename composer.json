@@ -22,19 +22,6 @@
             "name": "Erik Tilt"
         }
     ],
-    "require": {
-        "php": "^5.2|^7.0",
-        "ext-mbstring": "*",
-        "ext-xml": "*",
-        "ext-xmlwriter": "*"
-    },
-    "require-dev": {
-        "squizlabs/php_codesniffer": "2.*"
-    },
-    "recommend": {
-        "ext-zip": "*",
-        "ext-gd": "*"
-    },
     "autoload": {
         "psr-0": {
             "PHPExcel": "Classes/"
